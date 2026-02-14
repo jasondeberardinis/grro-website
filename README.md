@@ -14,4 +14,16 @@ AI-Powered Creative Agency Website
 - Body Font: Inter
 
 ## Tech Stack
-TBD
+- Next.js 16
+- TypeScript
+- Tailwind CSS v4
+
+## Development
+```bash
+npm run dev
+```
+
+## Build
+```bash
+npm run build && npm start
+```
