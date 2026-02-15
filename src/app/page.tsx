@@ -1,6 +1,7 @@
 import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
 import LogoBar from "@/components/LogoBar";
+import WeHelp from "@/components/WeHelp";
 import SubHero from "@/components/SubHero";
 import VideoSection from "@/components/VideoSection";
 import WhatWeDo from "@/components/WhatWeDo";
@@ -16,6 +17,7 @@ export default function Home() {
       <Navbar />
       <Hero />
       <LogoBar />
+      <WeHelp />
       <SubHero />
       <VideoSection />
       <WhatWeDo />

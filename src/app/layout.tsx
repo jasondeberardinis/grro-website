@@ -22,11 +22,15 @@ export default function RootLayout({
           crossOrigin="anonymous"
         />
         <link
-          href="https://fonts.googleapis.com/css2?family=Michroma&family=Inter:wght@300;400;500;600;700&display=swap"
+          href="https://fonts.googleapis.com/css2?family=Michroma&family=Anton&display=swap"
+          rel="stylesheet"
+        />
+        <link
+          href="https://api.fontshare.com/v2/css?f[]=satoshi@300,400,500,600,700,900&display=swap"
           rel="stylesheet"
         />
       </head>
-      <body className="bg-navy-deep text-white font-body antialiased">
+      <body className="bg-white text-[#1B263B] font-body antialiased">
         {children}
       </body>
     </html>

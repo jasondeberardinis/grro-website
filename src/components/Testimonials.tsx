@@ -29,7 +29,7 @@ export default function Testimonials() {
         <p className="text-xs tracking-[3px] uppercase text-orange font-medium mb-4">
           What They Say
         </p>
-        <h2 className="font-heading text-3xl md:text-[38px] tracking-wider">
+        <h2 className="font-heading text-3xl md:text-[38px] tracking-wider text-[#1B263B]">
           Mission Reports
         </h2>
       </div>
@@ -38,21 +38,21 @@ export default function Testimonials() {
         {testimonials.map((t) => (
           <div
             key={t.name}
-            className="bg-navy border border-navy-light/40 rounded-2xl p-8 flex flex-col justify-between hover:border-navy-light/60 transition-all"
+            className="bg-gray-50 border border-gray-200 rounded-2xl p-8 flex flex-col justify-between hover:border-gray-300 transition-all"
           >
-            <blockquote className="text-base text-gray-light leading-relaxed mb-8 italic">
+            <blockquote className="text-base text-gray-600 leading-relaxed mb-8 italic">
               &ldquo;{t.quote}&rdquo;
             </blockquote>
             <div>
               <div className="flex items-center gap-3">
-                <div className="w-10 h-10 rounded-full bg-navy-light/30 flex items-center justify-center">
-                  <span className="text-xs font-semibold text-white">
+                <div className="w-10 h-10 rounded-full bg-gray-200 flex items-center justify-center">
+                  <span className="text-xs font-semibold text-[#1B263B]">
                     {t.name.split(" ").map((n) => n[0]).join("")}
                   </span>
                 </div>
                 <div>
-                  <p className="text-sm font-semibold text-white">{t.name}</p>
-                  <p className="text-xs text-navy-light">
+                  <p className="text-sm font-semibold text-[#1B263B]">{t.name}</p>
+                  <p className="text-xs text-gray-400">
                     {t.role}, {t.company}
                   </p>
                 </div>

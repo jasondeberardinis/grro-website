@@ -25,23 +25,23 @@ export default function HowItWorks() {
       <p className="text-xs tracking-[3px] uppercase text-orange font-medium mb-4">
         How It Works
       </p>
-      <h2 className="font-heading text-3xl md:text-[38px] tracking-wider mb-4">
+      <h2 className="font-heading text-3xl md:text-[38px] tracking-wider mb-4 text-[#1B263B]">
         Launch Sequence
       </h2>
-      <p className="text-base text-gray max-w-[520px] leading-relaxed mb-16">
+      <p className="text-base text-gray-500 max-w-[520px] leading-relaxed mb-16">
         Three steps from brief to blast-off.
       </p>
 
       <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
         {steps.map((step) => (
           <div key={step.number}>
-            <div className="font-heading text-6xl text-navy-light/60 mb-4 leading-none">
+            <div className="font-heading text-6xl text-gray-200 mb-4 leading-none">
               {step.number}
             </div>
-            <h3 className="font-heading text-sm tracking-[2px] mb-3">
+            <h3 className="font-heading text-sm tracking-[2px] mb-3 text-[#1B263B]">
               {step.title}
             </h3>
-            <p className="text-sm text-gray leading-relaxed">
+            <p className="text-sm text-gray-500 leading-relaxed">
               {step.description}
             </p>
           </div>
